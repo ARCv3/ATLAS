@@ -1,9 +1,13 @@
 export const defaultPartnerConfig = {
-    haven: {
+    Haven: {
         domain: {
             customDomainEnabled: false,
             domain: 'customdomain.com',
             subdomain: 'haven'
-        }
+        },
+    },
+    partner: {
+        isActive: false,
+        premium: false
     }
 }
