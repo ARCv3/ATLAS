@@ -5,12 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "tsx src/bin/server.ts"
+    "dev": "tsx watch --include \"src/*\" src/bin/server.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@apollo/server": "^4.12.2",
+    "deep-copy-ts": "^0.5.4",
     "graphql": "^16.11.0"
   },
   "devDependencies": {
