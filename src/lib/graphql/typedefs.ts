@@ -19,7 +19,7 @@ export const typeDefs = `#graphql
 
     # This "HavenConfig" type defines the configuration for Haven
     type HavenConfig {
-        domain: HavenCustomDomainConfig
+        domain: HavenDomainConfig
     }
 
     # This "PartnerConfig" type defines the configuration for each partner
