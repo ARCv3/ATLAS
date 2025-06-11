@@ -11,9 +11,15 @@ export const typeDefs = `#graphql
         premium: Boolean
     }
 
+    type HavenDomainConfig {
+        customDomainEnabled: Boolean
+        domain: String
+        subdomain: String
+    }
+
     # This "HavenConfig" type defines the configuration for Haven
     type HavenConfig {
-        subdomain: String
+        domain: HavenCustomDomainConfig
     }
 
     # This "PartnerConfig" type defines the configuration for each partner
