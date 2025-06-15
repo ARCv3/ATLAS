@@ -5,7 +5,7 @@ export const defaultPartnerConfig = {
             domain: 'customdomain.com',
             subdomain: 'haven'
         },
-        version: '1.0.0',
+        version: 'A',
         theme: {
             primaryColor: '#1976d2'
         },
@@ -27,20 +27,21 @@ export const defaultPartnerConfig = {
             info: {
                 infoHeader: 'Information',
                 infoSubheader: 'Learn more about Haven',
-                infoSubheaderPlacement: 'top'
+                infoSubheaderPlacement: 'above'
             },
             highlights: {
                 highlightsHeader: 'Highlights',
                 highlightsSubheader: 'Featured content',
-                highlightsPlacement: 'top'
+                highlightsPlacement: 'above'
             },
             news: {
                 newsHeader: 'Latest News',
                 newsSubheader: 'Stay updated',
-                newsSubheaderPlacement: 'top'
+                newsSubheaderPlacement: 'above'
             }
         },
         content: {
+            backgroundImage: "https://api.freelogodesign.org/assets/blog/thumb/4ddcba00db4142899d322683c681601a_1176x840.jpg?t=638369603760000000",
             enableInfo: true,
             enableDefaultInfo: false,
             customInfo: [

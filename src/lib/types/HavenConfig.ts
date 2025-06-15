@@ -75,6 +75,7 @@ export interface HavenHighlightsContent {
 }
 
 export interface HavenContent {
+    backgroundImage: string;
     enableInfo: boolean;
     enableDefaultInfo: boolean;
     customInfo: HavenInfoContent[];

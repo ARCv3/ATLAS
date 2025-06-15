@@ -94,6 +94,7 @@ export const typeDefs = `#graphql
 
     # Content configuration for Haven
     type HavenContent {
+        backgroundImage: String
         enableInfo: Boolean
         enableDefaultInfo: Boolean
         customInfo: [HavenInfoContent]
