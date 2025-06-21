@@ -21,12 +21,12 @@ export const defaultPartnerConfig = {
             hero: {
                 heroPrefix: 'Welcome to',
                 heroTitle: 'Haven',
-                heroDescription: 'Your safe space for community and news.',
+                heroDescription: 'Join our vibrant community of gamers, artists, and tech enthusiasts. Connect, share, and grow with like-minded individuals in a friendly and inclusive environment.',
                 heroJoinButtonText: 'Join Now'
             },
             info: {
-                infoHeader: 'Information',
-                infoSubheader: 'Learn more about Haven',
+                infoHeader: 'Server Information',
+                infoSubheader: 'Discover',
                 infoSubheaderPlacement: 'above'
             },
             highlights: {
@@ -48,7 +48,7 @@ export const defaultPartnerConfig = {
                 {
                     icon: "Info",
                     title: "About Haven",
-                    description: "Haven is your trusted community platform."
+                    description: "Haven is your trusted community platform. Haven is your trusted community platform. Haven is your trusted community platform. Haven is your trusted community platform. Haven is your trusted community platform. "
                 },
                 {
                     icon: "Security",
@@ -114,6 +114,7 @@ export const defaultPartnerConfig = {
     },
     partner: {
         isActive: false,
-        premium: false
+        premium: false,
+        guildSnowflake: "707260999496892436"
     }
 }

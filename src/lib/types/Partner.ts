@@ -3,4 +3,5 @@ export interface Partner {
     name: string;
     isActive: boolean;
     premium: boolean;
+    guildSnowflake: string;
 };

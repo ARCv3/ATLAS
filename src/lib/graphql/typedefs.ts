@@ -5,6 +5,7 @@ export const typeDefs = `#graphql
         id: Int
         name: String
         isActive: Boolean
+        guildSnowflake: String
         premium: Boolean
     }
 
@@ -123,11 +124,20 @@ export const typeDefs = `#graphql
         Haven: HavenConfig
     }
 
+    type DiscordGuildInfo {
+        snowflake: String
+        members: Int
+        online: Int
+        channels: Int
+        events: Int
+    }
+
     # Root query type
     type Query {
         partners: [Partner]
         partner(id: Int!): Partner
         partnerConfig(id: Int!): PartnerConfig
+        partnerGuildInfo(id: Int!): DiscordGuildInfo
     }
 
 `
